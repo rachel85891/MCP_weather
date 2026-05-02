@@ -61,6 +61,19 @@ Connected to server: weather_Israel
 [2] Calling: weather_Israel__enter_weather_forecast_city_israel(city="ירושלים")
 [3] Calling: weather_Israel__get_weather_page_content
 
+#Final Response:
+Jerusalem (ירושלים) is currently at 21.8°C.
+
+Forecast Highlights:
+
+Tonight: Partly cloudy, light local rain possible.
+
+Sunday: Significant temperature drop, strong winds, and local rain.
+
+Monday: Colder than usual for the season, intermittent rain.
+
+Alert: High and dangerous sea conditions in the Mediterranean.
+
 פותח על ידי רחלי במסגרת לימודי AI.
 
 
