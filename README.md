@@ -46,18 +46,20 @@
     ```
 2.  הגדירו את מפתח ה-API בקובץ הקוד או כמשתנה סביבה.
 
-### הרצה
-להפעלת ה-Host האינטראקטיבי:
-```bash
-uv run host.py
-🔍 דוגמת הרצה
-שאלה: "מה מזג האוויר בירושלים?"
+## 🔍 דוגמת הרצה (Usage Example)
 
-1. [Analysis] המשתמש שואל על ירושלים -> זיהוי שרת יעד: weather_Israel.
-2. [Action] קריאה לכלי: weather_Israel__open_weather_forecast_israel
-3. [Action] קריאה לכלי: weather_Israel__enter_weather_forecast_city_israel (Input: "ירושלים")
-4. [Action] קריאה לכלי: weather_Israel__get_weather_page_content
-5. [Processing] ניתוח הטקסט שחזר מהדף וסיכומו לשפה טבעית.
+### **User Query:**
+> "What is the weather in Jerusalem?"
+
+### **System Execution Log:**
+```bash
+# ה-Host מזהה את הצורך במידע מישראל ומתחבר לשרת המתאים
+Connected to server: weather_Israel
+
+# המודל מחליט על סדר פעולות אוטונומי:
+[1] Calling: weather_Israel__open_weather_forecast_israel
+[2] Calling: weather_Israel__enter_weather_forecast_city_israel(city="ירושלים")
+[3] Calling: weather_Israel__get_weather_page_content
 
 פותח על ידי רחלי במסגרת לימודי AI.
 
