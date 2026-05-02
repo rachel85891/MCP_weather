@@ -52,16 +52,19 @@
 > "What is the weather in Jerusalem?"
 
 ### **System Execution Log:**
-```bash
-# ה-Host מזהה את הצורך במידע מישראל ומתחבר לשרת המתאים
-Connected to server: weather_Israel
 
+# ה-Host מזהה את הצורך במידע מישראל ומתחבר לשרת המתאים
+```bash
+Connected to server: weather_Israel
+```
 # המודל מחליט על סדר פעולות אוטונומי:
+```bash
 [1] Calling: weather_Israel__open_weather_forecast_israel
 [2] Calling: weather_Israel__enter_weather_forecast_city_israel(city="ירושלים")
 [3] Calling: weather_Israel__get_weather_page_content
-
+```
 #Final Response:
+```bash
 Jerusalem (ירושלים) is currently at 21.8°C.
 
 Forecast Highlights:
