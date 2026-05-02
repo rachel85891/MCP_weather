@@ -74,6 +74,8 @@ Monday: Colder than usual for the season, intermittent rain.
 
 Alert: High and dangerous sea conditions in the Mediterranean.
 
+```
+
 פותח על ידי רחלי במסגרת לימודי AI.
 
 
